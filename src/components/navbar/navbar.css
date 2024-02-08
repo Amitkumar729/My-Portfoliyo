@@ -1,0 +1,82 @@
+.navbar {
+  /* border: 1px solid red; */
+  /* float: right; */
+  position: fixed;
+  inset-block: 0;
+  right: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* width: 25%; */
+}
+
+.nav-icons-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-block: 10px;
+  cursor: pointer;
+  position: relative;
+   
+}
+
+.nav-name {
+  border: 1px solid cadetblue;
+  border-radius: 50px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 70px;
+  font-family: serif;
+  font-weight: 400;
+  background-color: cadetblue;
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  top: 0;
+  right: 120%;
+  transition: all 0.3s ease-in-out;
+}
+
+
+.nav-icons {
+  border: 0.2px dotted blanchedalmond;
+  height: 35px;
+  width: 35px;
+  padding: 5px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #c0c0c0; */
+  background-color: #cfe1e2;
+  color: white;
+  cursor: pointer;
+}
+
+
+
+.nav-icons-wrapper.active .nav-icons {
+    background-color: cadetblue;
+  }
+  
+  .nav-icons-wrapper.active .nav-name {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  
+ 
+
+.nav-icons-wrapper:hover .nav-icons {
+    background-color: cadetblue;
+    transform: scale(1.15);
+}
+
+.nav-icons-wrapper:hover .nav-name {
+  opacity: 1;
+  visibility: visible;
+  transform: scale(1.15);
+}
