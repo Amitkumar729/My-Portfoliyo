@@ -40,7 +40,7 @@ const Frontpage = () => {
           </div>
           <div className="skills-icon-container">
             {socialMediaIcon.map(({ icon, path }, idx) => {
-              return <Link to={path}>{icon}</Link>;
+              return <Link to={path} key={idx} >{icon}</Link>;
             })}
           </div>
         </div>

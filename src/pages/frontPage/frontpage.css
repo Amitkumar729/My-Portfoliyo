@@ -7,16 +7,7 @@
   width: 100%;
   /* border: 1px solid red; */
   display: flex;
-  /* justify-content: center; */
   flex-direction: column;
-  /* align-items: center; */
-  background: linear-gradient(
-    110.6deg,
-    rgb(156, 116, 129) -18.3%,
-    rgb(67, 54, 74) 16.4%,
-    rgb(47, 48, 67) 68.2%,
-    rgb(27, 23, 36) 99.1%
-  );
 }
 
 .sub-main-container {
@@ -24,7 +15,7 @@
   width: 100%;
   /* border: 1px solid green; */
   display: flex;
-  /* justify-content: center; */
+
   align-items: center;
   margin-top: 40px;
 }
@@ -40,18 +31,18 @@
 }
 
 .logo-wrapper {
-    height: 60px;
-    width: 60px;
-    border-radius: 60px;
+  height: 60px;
+  width: 60px;
+  border-radius: 60px;
 }
 
-.logo-text{
-    font-family: "Open Sans", sans-serif;
+.logo-text {
+  font-family: "Open Sans", sans-serif;
   font-family: "Poppins", sans-serif;
   font-family: "Protest Guerrilla", sans-serif;
   font-size: 24px;
   color: cadetblue;
-  margin-left: 5px;
+  margin-left: 18px;
   /* border: 1px solid red; */
 }
 
@@ -107,14 +98,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* padding: 10px; */
 }
 
 .social-media-icon {
   /* border: 0.2px dotted blanchedalmond; */
-  height: 35px;
-  width: 35px;
+  height: 50px;
+  width: 50px;
   padding: 5px;
+  margin: 8px;
   border-radius: 50px;
   display: flex;
   justify-content: center;

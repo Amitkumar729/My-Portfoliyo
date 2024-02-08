@@ -1,12 +1,67 @@
 .container {
-  border: 1px sloid red;
+  /* border: 2px solid green; */
   height: 500px;
   width: 100%;
-  background: linear-gradient(
-    110.6deg,
-    rgb(156, 116, 129) -18.3%,
-    rgb(67, 54, 74) 16.4%,
-    rgb(47, 48, 67) 68.2%,
-    rgb(27, 23, 36) 99.1%
-  );
 }
+
+.heading{
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Open Sans", sans-serif;
+    font-family: "Poppins", sans-serif;
+    font-family: "Protest Guerrilla", sans-serif;
+    font-size: 32px;
+    color: cadetblue;
+}
+
+.skills-container {
+    /* border: 3px solid green; */
+    height: 250px;
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.skills-container-wrapper {
+    /* border: 1px solid red; */
+    height: 120px;
+    width: 80px;
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+.skills-container-wrapper:hover {
+    transform: scale(1.1);
+}
+
+.skills-icon{
+    /* border: 1px solid yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skills-icon-wrapper {
+    height: 70px;
+    width: 70px;
+   
+}
+.skills-name {
+    /* border: 1px solid black; */
+    margin-top: 10px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cadetblue;
+    color: white;
+    border-radius: 15px;
+    font-family: sans-serif;
+    cursor: pointer;
+    /* font-weight: 200; */
+}
+
