@@ -35,13 +35,7 @@ const Frontpage = () => {
             </div>
             <div className="about-container">
               <h4>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non
-                dicta quaerat officiis voluptas nemo praesentium suscipit
-                repellendus iusto et corrupti possimus, odio, dignissimos a sed
-                asperiores hic. Qui laudantium repudiandae odio provident
-                deserunt dolor vitae iste odit facere voluptate autem, animi eum
-                cupiditate quibusdam. Placeat eius nesciunt fugit autem
-                possimus.
+              I am eager to leverage my expertise and continue expanding my skills by joining a dynamic organization that fosters continuous learning and growth. I am committed to contributing my utmost efforts to make meaningful contributions to the team.
               </h4>
             </div>
             <div className="skills-icon-container">
