@@ -1,0 +1,21 @@
+.footer-container {
+    border: 1px solid cadetblue;
+    height: 70px;
+    width: 100%;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #8fbbbd; */
+    background: linear-gradient(
+    180.2deg,
+    rgb(30, 33, 48) 6.8%,
+    rgb(74, 98, 110) 131%
+  );
+}
+
+.footer-container, h1 {
+    color: white;
+    font-family: sans-serif;
+    font-style: italic;
+}

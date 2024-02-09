@@ -6,6 +6,7 @@ import { socialMediaIcon } from "../../data";
 import Skills from "../skills/Skills";
 import Projects from "../projects/Projects";
 import gmail from "../../Assets/gmail.webp";
+import Footer from "../../components/footer/Footer";
 
 const Frontpage = () => {
   return (
@@ -58,6 +59,7 @@ const Frontpage = () => {
 
       <Skills />
       <Projects />
+      <Footer/>
     </>
   );
 };

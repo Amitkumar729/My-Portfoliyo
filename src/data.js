@@ -13,6 +13,7 @@ import link from "../src/Assets/link.jpg";
 import chatApp from "../src/Assets/chatApp.png";
 import googleClone from "../src/Assets/googleClone.png";
 import textUtility from "../src/Assets/textUtility.png";
+import js from "../src/Assets/js.png";
 
 export const navData = [
   {
@@ -62,21 +63,26 @@ export const skillsIcons = [
   },
   {
     id: 2,
+    img: <img src={js} className="skills-icon-wrapper" alt="" />,
+    name: "Java Script",
+  },
+  {
+    id: 3,
     img: <img src={react} className="skills-icon-wrapper" alt="" />,
     name: "React js",
   },
   {
-    id: 3,
+    id: 4,
     img: <img src={mongoDb} className="skills-icon-wrapper" alt="" />,
     name: "Mongo DB",
   },
   {
-    id: 4,
+    id: 5,
     img: <img src={expressjs} className="skills-icon-wrapper" alt="" />,
     name: "Express Js",
   },
   {
-    id: 5,
+    id: 6,
     img: <img src={nodejs} className="skills-icon-wrapper" alt="" />,
     name: "Node Js",
   },
@@ -127,7 +133,7 @@ export const projectsData = [
     icon1: <img src={github} alt="" className="projects-icons" />,
     path1: "https://github.com/Amitkumar729/Textutils-React-WebApp",
     icon2: <img src={link} alt="" className="projects-icons" />,
-    path2: "- https://textutils-webapp.web.app/",
+    path2: "https://textutils-webapp.web.app/",
     name: <h4>Text Utility Web App</h4>,
   },
 ];

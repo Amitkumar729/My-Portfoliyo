@@ -15,7 +15,7 @@ const Skills = () => {
               return (
                 <>
                 <div className="skills-container-wrapper" key={idx} >
-                <div className="skills-icon">
+                <div className="skills-icon"  >
                 {img}
               </div>
               <div className="skills-name">
