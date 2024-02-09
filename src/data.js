@@ -10,6 +10,8 @@ import mongoDb from "../src/Assets/mongodb.png"
 import expressjs from "../src/Assets/expressjs.png"
 import react from "../src/Assets/react.png"
 import nodejs from "../src/Assets/nodejs.png"
+import { FaLink } from "react-icons/fa";
+import photo3 from "../src/Assets/photo3.avif";
 
 export const navData = [
   {
@@ -68,18 +70,54 @@ export const skillsIcons = [
         name: "React js",
     },
     {
-        id: 1,
+        id: 3,
         img: <img src={mongoDb}  className="skills-icon-wrapper" alt="" />,
         name: "Mongo DB"
     },
     {
-        id: 1,
+        id: 4,
         img: <img src={expressjs}  className="skills-icon-wrapper" alt="" />,
         name: "Express Js"
     },
     {
-        id: 1,
+        id: 5,
         img: <img src={nodejs}  className="skills-icon-wrapper" alt="" />,
         name: "Node Js"
     }
+]
+
+export const projectsData = [
+    {
+        id: 1,
+        img: <img src={photo3} alt="" className="projects-photo"  />,
+        techText: <h4>this is the tech text</h4>,
+        featuresText: <h4>this is the features text</h4>,
+        icon1: <FaGithub className="projects-icons" />,
+        path1: "www.instagram.com",
+        icon2: <FaLink className="projects-icons" />,
+        path2: "www.instagram.com",
+        name: <h4>projects</h4>,
+    },
+    {
+        id: 2,
+        img: <img src={photo3} alt="" className="projects-photo"  />,
+        techText: <h4>this is the tech text</h4>,
+        featuresText: <h4>this is the features text</h4>,
+        icon1: <FaGithub className="projects-icons" />,
+        path1: "www.instagram.com",
+        icon2: <FaLink className="projects-icons" />,
+        path2: "www.instagram.com",
+        name: <h4>projects</h4>,
+    },
+    {
+        id: 3,
+        img: <img src={photo3} alt="" className="projects-photo"  />,
+        techText: <h4>this is the tech text</h4>,
+        featuresText: <h4>this is the features text</h4>,
+        icon1: <FaGithub className="projects-icons" />,
+        path1: "www.instagram.com",
+        icon2: <FaLink className="projects-icons" />,
+        path2: "www.instagram.com",
+        name: <h4>projects</h4>,
+    },
 ]

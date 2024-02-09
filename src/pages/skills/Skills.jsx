@@ -11,11 +11,11 @@ const Skills = () => {
         </div>
         <div className="skills-container">
           
-            {skillsIcons.map(({ img, name }, idx) => {
+            {skillsIcons.map(({img, name }, idx) => {
               return (
                 <>
-                <div className="skills-container-wrapper">
-                <div className="skills-icon" key={idx}>
+                <div className="skills-container-wrapper" key={idx} >
+                <div className="skills-icon">
                 {img}
               </div>
               <div className="skills-name">

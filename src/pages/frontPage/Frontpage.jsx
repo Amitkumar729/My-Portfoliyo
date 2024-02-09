@@ -5,6 +5,7 @@ import logo from "../../Assets/logo.jpeg";
 import { socialMediaIcon } from "../../data";
 import { Link } from "react-router-dom";
 import Skills from "../skills/Skills";
+import Projects from "../projects/Projects";
 
 const Frontpage = () => {
   return (
@@ -48,6 +49,7 @@ const Frontpage = () => {
     </div>
 
     <Skills/>
+    <Projects/>
     </>
   );
 };
