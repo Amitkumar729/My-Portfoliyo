@@ -53,7 +53,7 @@
   align-items: center;
   /* background-color: #c0c0c0; */
   background-color: #cfe1e2;
-  color: white;
+  color: black;
   cursor: pointer;
 }
 
@@ -61,6 +61,7 @@
 
 .nav-icons-wrapper.active .nav-icons {
     background-color: cadetblue;
+    color: white;
      
   }
   

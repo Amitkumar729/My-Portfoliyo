@@ -63,10 +63,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 10px;
+  margin-top: 5px;
   margin-left: 10px;
   padding: 2px;
   color: white;
+  font-family: sans-serif;
 }
 
 .projects-tech {
@@ -107,12 +108,12 @@
   justify-content: center;
   align-items: center;
   background-color: #cfe1e2;
-  color: white;
+  color: #8fbbbc;
   cursor: pointer;
 }
 
 .projects-icons:hover {
-  background-color: cadetblue;
+  background-color: cyan;
   transform: scale(1.2);
 }
 

@@ -31,6 +31,7 @@
 }
 
 .logo-wrapper {
+  /* border: 1px solid aqua; */
   height: 60px;
   width: 60px;
   border-radius: 60px;
@@ -46,6 +47,38 @@
   /* border: 1px solid red; */
 }
 
+.gmail-container {
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: auto;
+  margin-right: 20px;
+  width: 250px;
+
+  /* padding: 10px; */
+}
+
+.gmail-container,
+h3 {
+  font-family: sans-serif;
+}
+
+.gmail-icon {
+  /* border: 1px solid red; */
+  height: 35px;
+  width: 35px;
+  padding: 5px;
+  border-radius: 50px;
+  background-color: #cfe1e2;
+  color: white;
+  cursor: pointer;
+}
+
+.gmail-icon:hover {
+  transform: scale(1.2);
+}
+
 .img-wrapper {
   position: relative;
   display: flex;
@@ -55,13 +88,15 @@
   border-radius: 15px;
   height: 450px;
   margin-left: 25px;
+  margin-right: 25px;
   cursor: pointer;
 }
 
 .text-container {
   /* border: 1px solid green; */
   width: 50%;
-  margin-left: 100px;
+  margin-left: 25px;
+  margin-right: 25px;
 }
 
 .name-container {
@@ -96,7 +131,7 @@
   width: 150px;
   height: 50px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -112,46 +147,42 @@
   align-items: center;
   /* background-color: #c0c0c0; */
   background-color: #cfe1e2;
-  color: white;
+  color: #8fbbbc;
   cursor: pointer;
 }
 
 .social-media-icon:hover {
-  background-color: cadetblue;
+  background-color: cyan;
   transform: scale(1.15);
 }
 
 @media screen and (max-width: 768px) {
   .main-container {
-    padding: 0 20px; /* Adjust padding for smaller screens */
+    padding: 0 20px;
   }
 
   .sub-main-container {
-    flex-direction: column; /* Stack items vertically on smaller screens */
+    flex-direction: column;
     height: auto;
-    margin-top: 20px; /* Adjust margin for smaller screens */
+    margin-top: 20px;
   }
 
   .logo-container {
-    margin-left: 0; /* Center logo on smaller screens */
-    /* justify-content: center; Center logo on smaller screens */
-    margin-bottom: 20px; /* Add space below logo on smaller screens */
+    margin-left: 0;
+    margin-bottom: 20px;
   }
 
   .img-wrapper {
-    margin: 0 auto 20px auto; /* Center image and add space below on smaller screens */
+    margin: 0 auto 20px auto;
   }
 
   .text-container {
-    width: 100%; /* Take full width on smaller screens */
-    margin-left: 0; /* Reset margin */
+    width: 100%;
+    margin-left: 0;
   }
-  
+
   .skills-icon-container {
-    width: 100%; /* Take full width on smaller screens */
-    justify-content: center; /* Center icons on smaller screens */
+    width: 100%;
+    justify-content: center;
   }
 }
-
-/* Add more media queries as needed for different screen sizes */
-
