@@ -120,3 +120,38 @@
   background-color: cadetblue;
   transform: scale(1.15);
 }
+
+@media screen and (max-width: 768px) {
+  .main-container {
+    padding: 0 20px; /* Adjust padding for smaller screens */
+  }
+
+  .sub-main-container {
+    flex-direction: column; /* Stack items vertically on smaller screens */
+    height: auto;
+    margin-top: 20px; /* Adjust margin for smaller screens */
+  }
+
+  .logo-container {
+    margin-left: 0; /* Center logo on smaller screens */
+    /* justify-content: center; Center logo on smaller screens */
+    margin-bottom: 20px; /* Add space below logo on smaller screens */
+  }
+
+  .img-wrapper {
+    margin: 0 auto 20px auto; /* Center image and add space below on smaller screens */
+  }
+
+  .text-container {
+    width: 100%; /* Take full width on smaller screens */
+    margin-left: 0; /* Reset margin */
+  }
+  
+  .skills-icon-container {
+    width: 100%; /* Take full width on smaller screens */
+    justify-content: center; /* Center icons on smaller screens */
+  }
+}
+
+/* Add more media queries as needed for different screen sizes */
+
