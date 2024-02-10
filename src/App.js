@@ -11,7 +11,9 @@ function App() {
   return (
     <>
       <Router>
-        <Navbar/>
+       
+      {/* <Navbar/>*/}
+        
         <Routes>
           <Route path="/" element={<Frontpage />} />
           <Route path="/skills" element={<Skills />} />
