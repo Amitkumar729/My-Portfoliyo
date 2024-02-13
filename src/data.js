@@ -46,7 +46,7 @@ export const socialMediaIcon = [
   {
     id: 2,
     icon: <img src={linkedin} alt="" className="social-media-icon" />,
-    path: "https://www.linkedin.com/in/amit-kumar-b1b257211/",
+    path: "https://www.linkedin.com/in/amitkumar729/",
   },
   {
     id: 3,
